@@ -17,4 +17,8 @@ In terms of adaptation to the task,It was clear that the model I would need for 
 In the particular case of the chatbot task - if we look at the data we can see that some sentences include quite a few words such as "Thank God! If I had to hear one more story about your coiffure..." when my hypothesis (not verified) was that in a model based on LSTM I would have more difficulty in the optimization stages and thus even poor performance
 
 Inside the notebook you can see short explanations and formulas implemented at each stage according to the architecture on which the transformer is based
-In the training phase, as mentioned above, the selection of the hyperparameters was carried out according to the article's recommendation, except for the amount of epoch that I had to reduce to 6 due to the inability to train with the existing hardware - the conscious training was carried out using google colab pro
+
+In the training phase, as mentioned above, the selection of the hyperparameters was carried out according to the article's 
+recommendation, except for the amount of layers that I had to reduce to 1 due to the inability to train with the existing hardware - the conscious training was carried out using google colab pro
+
+
