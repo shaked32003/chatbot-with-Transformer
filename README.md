@@ -10,7 +10,7 @@ During the model building phase, by using techniques from the OOP world, I creat
 
 ![transformer_architecture](https://user-images.githubusercontent.com/96596252/189915591-6cf9c93a-62d7-48af-9fb7-d4369b1d6cbb.jpg)
 
-When the guiding article was NIPS-2017-attention-is-all-you-need-Paper from which the hyperampmeters were also taken after I studied the mathematical pan of the model The choice of the model was due to educational reasons and due to suitability for the task: In the study pan, this model included a number of points from different models such as the ResNet model in the decoder and encoder stages and of course FC in the feed forward stages Something that gave experience and understanding in the implementation of a variety of pitches in the various models
+When the guiding article was [NIPS-2017-attention-is-all-you-need-Paper] from which the hyperampmeters were also taken after I studied the mathematical pan of the model The choice of the model was due to educational reasons and due to suitability for the task: In the study pan, this model included a number of points from different models such as the ResNet model in the decoder and encoder stages and of course FC in the feed forward stages Something that gave experience and understanding in the implementation of a variety of pitches in the various models
 
 In terms of adaptation to the task,It was clear that the model I would need for the task was from the RNN family. Transforner model could perform the NLP task with a high probability of success due to its many advantages such as the non-dependence during the training between the words, which could prevent the problem of the gradient vanishing during the training
 
