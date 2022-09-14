@@ -23,4 +23,14 @@ Inside the notebook you can see short explanations and formulas implemented at e
 In the training phase, as mentioned above, the selection of the hyperparameters was carried out according to the article's 
 recommendation, except for the amount of layers that I had to reduce to 1 due to the inability to train with the existing hardware - the conscious training was carried out using google colab pro
 
+During the evaluation phase, it was possible to notice that the chatbot recognizes basic sentences and gives fairly short answers
+
+Since my evaluation index at the moment relied only on the loss, looking at the following graph you can see that although the general trend is a downward trend, there is a fairly long shuffling between 4.4 - 4.2, so the amount of the epoch was not the one that created the problem, since the model had difficulty going down to a loss lower than 4.2
+
+<img width="633" alt="צילום מסך 2022-09-14 ב-12 51 17" src="https://user-images.githubusercontent.com/96596252/190125177-04f53d20-98c0-4de1-a7ab-8e52de0b5a76.png">
+
+I hypothesized that the problem was the number of layers given to the model since, as mentioned above, the initial number of layers was 1 and the time was that the model was unable to create a correlation between sentences of a longer and more complicated magnitude as a result
+
+I now trained the model with 6 hidden layers when I got a better intuition and inference of what was going on
+
 
