@@ -21,7 +21,8 @@ In the particular case of the chatbot task - if we look at the data we can see t
 Inside the notebook you can see short explanations and formulas implemented at each stage according to the architecture on which the transformer is based
 
 In the training phase, as mentioned above, the selection of the hyperparameters was carried out according to the article's 
-recommendation, except for the amount of layers that I had to reduce to 1 due to the inability to train with the existing hardware - the conscious training was carried out using google colab pro
+recommendation, except for the amount of layers that I had to reduce to 1 dSince I wanted to get a better intuition about the result obtained in the base state (num_layer =1)
+In addition to runtime considerations that became long with the amount of layers - the conscious training was carried out using google colab pro
 
 During the evaluation phase, it was possible to notice that the chatbot recognizes basic sentences and gives fairly short answers
 
