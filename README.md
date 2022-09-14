@@ -27,6 +27,7 @@ In addition to runtime considerations that became long with the amount of layers
 During the evaluation phase, it was possible to notice that the chatbot recognizes basic sentences and gives fairly short answers
 
 Since my evaluation index at the moment relied only on the loss, looking at the following graph you can see that although the general trend is a downward trend, there is a fairly long shuffling between 4.4 - 4.2, so the amount of the epoch was not the one that created the problem, since the model had difficulty going down to a loss lower than 4.2
+
 In the following graph you can see the average loss at the end of each epoch (at the beginning of epoch 0 the loss was 8.647)
 
 <img width="633" alt="צילום מסך 2022-09-14 ב-12 51 17" src="https://user-images.githubusercontent.com/96596252/190125177-04f53d20-98c0-4de1-a7ab-8e52de0b5a76.png">
