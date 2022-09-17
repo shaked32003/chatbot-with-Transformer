@@ -38,7 +38,7 @@ I now trained the model with 6 hidden layers when I got a better intuition and i
 
 - In terms of the loss index, the situation remained almost unchanged and it was difficult to drop further from 4.2:
 
-<img width="998" alt="צילום מסך 2022-09-17 ב-13 03 57" src="https://user-images.githubusercontent.com/96596252/190853272-85bd414d-da6b-41b8-97c9-8340bbbb5135.png">
+<img width="657" alt="צילום מסך 2022-09-17 ב-13 59 34" src="https://user-images.githubusercontent.com/96596252/190853341-79af4ae5-9130-4ce6-bef3-a62be3abd4f8.png">
 
 - At the actual performance level of the chatbot, I discovered that the chatbot does not know how to answer even basic questions like "Hello" or "How are you" when with one layer it did succeed
 After checking in various sources, I was relieved to find out that **there is a certain N where N represents the number of layers for which the actual performance of the model decreases** I also understood that this situation can be accepted **because the amount of data does not increase in a limit to the number of layers**
