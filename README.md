@@ -34,6 +34,15 @@ In the following graph you can see the average loss at the end of each epoch (at
 
 I hypothesized that the problem was the number of layers given to the model since, as mentioned above, the initial number of layers was 1 and the time was that the model was unable to create a correlation between sentences of a longer and more complicated magnitude as a result
 
-I now trained the model with 6 hidden layers when I got a better intuition and inference of what was going on
+I now trained the model with 6 hidden layers when I got a better intuition and inference of what was going on The result was surprising:
+
+- In terms of the loss index, the situation remained almost unchanged and it was difficult to drop further from 4.2:
+
+<img width="998" alt="צילום מסך 2022-09-17 ב-13 03 57" src="https://user-images.githubusercontent.com/96596252/190853272-85bd414d-da6b-41b8-97c9-8340bbbb5135.png">
+
+- At the actual performance level of the chatbot, I discovered that the chatbot does not know how to answer even basic questions like "Hello" or "How are you" when with one layer it did succeed
+After checking in various sources, I was relieved to find out that **there is a certain N where N represents the number of layers for which the actual performance of the model decreases** I also understood that this situation can be accepted **because the amount of data does not increase in a limit to the number of layers**
+
+I trained the model for each of the values N = {1,2,3,4,5,6} in order to investigate the matter and find an optimal N for the problem
 
 
