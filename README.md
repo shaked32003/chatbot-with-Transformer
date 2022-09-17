@@ -1,7 +1,5 @@
 An independent project for learning and experience out of academic studies in which I implemented a transformer model using the petorch library to build a chatbot
 
-The main goals of the project were **not** to achieve high accuracy but to experiment with PyTorch and building a deep neural network by implementation of the architecture of the transformer model as well as to work with a database not preloaded by PyTorch
-
 In the first step, I took data from the kaggle ( https://www.kaggle.com/datasets/grafstor/simple-dialogs-for-chatbot) site which included two files, where the first was arrays with serial numbers that described a sequence of calls and the second was the sentence that each serial number describes During the data processing process, I mapped parts that are not useful in the string and prepared it for the embedding stage
 
 During the model building phase, by using techniques from the OOP world, I created objects with the aim of realizing the following architecture:
