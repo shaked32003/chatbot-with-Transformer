@@ -1,7 +1,9 @@
 An independent project for learning and experience out of academic studies in which I implemented a transformer model using the petorch library to build a chatbot
 
+# dataset
 In the first step, I took data from the kaggle ( https://www.kaggle.com/datasets/grafstor/simple-dialogs-for-chatbot) site which included two files, where the first was arrays with serial numbers that described a sequence of calls and the second was the sentence that each serial number describes During the data processing process, I mapped parts that are not useful in the string and prepared it for the embedding stage
 
+# model
 During the model building phase, by using techniques from the OOP world, I created objects with the aim of realizing the following architecture:
 
 ![transformer_architecture](https://user-images.githubusercontent.com/96596252/189915591-6cf9c93a-62d7-48af-9fb7-d4369b1d6cbb.jpg)
@@ -18,6 +20,7 @@ In the particular case of the chatbot task - if we look at the data we can see t
 
 Inside the notebook you can see short explanations and formulas implemented at each stage according to the architecture on which the transformer is based
 
+# Traning
 In the training phase, as mentioned above, the selection of the hyperparameters was carried out according to the article's 
 recommendation, except for the amount of layers that I had to reduce to 1 dSince I wanted to get a better intuition about the result obtained in the base state (num_layer =1)
 In addition to runtime considerations that became long with the amount of layers - the conscious training was carried out using google colab pro
