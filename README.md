@@ -45,5 +45,11 @@ I now trained the model with 6 hidden layers when I got a better intuition and i
 After checking in various sources, I was relieved to find out that **there is a certain N where N represents the number of layers for which the actual performance of the model decreases** I also understood that this situation can be accepted **because the amount of data does not increase in a limit to the number of layers**
 
 I trained the model for each of the values N = {1,2,3,4,5,6} in order to investigate the matter and find an optimal N for the problem
+When I tried the model for n=3, I discovered that the model returned to respond like n=6 and does not respond to the basic questions that it was able to answer for n<3, therefore I understood that there is no need to continue to check cases 4 and 5 as well
+It can be seen that of all the layers performed, the lowest loss value for 10 epoch was obtained for 2 layers:
+
+<img width="701" alt="צילום מסך 2022-09-19 ב-21 53 06" src="https://user-images.githubusercontent.com/96596252/191093657-5f6a2e34-c899-4dc1-a66c-c2e9266cfe88.png">
+
+Therefore, I determined that for my task the optimal number of layers is 2
 
 
