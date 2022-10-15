@@ -62,6 +62,6 @@ Now the goal is to try to lower the loss value of the model from 4.2
 - Increasing the amount of heads helps in the actual performance of the chatbot and finding a better correlation between the words, but does not lower the loss value
 - It was noticed that in cases where the answer became more "full" but was answered in incorrect contexts (for example, I wrote "good bye" and he decided to answer "good night") - something that made me now cautiously assume that the problem is already related to the high loss value and less Exactly the existing one
 
-I plan to test two options that may improve the loss:
+I will plan to test two options that may improve the loss:
 1. Using the L2 penalty technique
 2. pretraining for the model
