@@ -52,4 +52,4 @@ It can be seen that of all the layers performed, the lowest loss value for 10 ep
 
 Therefore, I determined that for my task the optimal number of layers is 2
 
-
+In a similar way, I found that the optimal number of heads for the task is 16, since it was obvious to see that with the addition of the layers, the model knew how to better link correlations between words and give answers that are more complete in content
