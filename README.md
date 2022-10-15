@@ -52,4 +52,16 @@ It can be seen that of all the layers performed, the lowest loss value for 10 ep
 
 Therefore, I determined that for my task the optimal number of layers is 2
 
-In a similar way, I found that the optimal number of heads for the task is 16, since it was obvious to see that with the addition of the layers, the model knew how to better link correlations between words and give answers that are more complete in content
+In a similar way, I found that the optimal number of heads for the task is 16, since it was obvious to see that with the addition of the layers, the model knew how to tie better correlations between words and give answers that are more complete in content, but the loss value still had difficulty falling below 4.2
+
+Now the goal is to try to lower the loss value of the model from 4.2
+
+**From a summary of the conclusions I have reached so far:**
+
+- The optimal amount of layers is 2
+- Increasing the amount of heads helps in the actual performance of the chatbot and finding a better correlation between the words, but does not lower the loss value
+- It was noticed that in cases where the answer became more "full" but was answered in incorrect contexts (for example, I wrote "good bye" and he decided to answer "good night") - something that made me now cautiously assume that the problem is already related to the high loss value and less Exactly the existing one
+
+I plan to test two options that may improve the loss:
+1. Using the L2 penalty technique
+2. pretraining for the model
