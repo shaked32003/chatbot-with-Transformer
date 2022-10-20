@@ -1,7 +1,7 @@
 # chatbot with Transformer
 
 # introduction
-An independent project for learning and experience out of academic studies in which I implemented a transformer model using the petorch library to build a chatbot
+An independent project for learning and experience out of academic studies in which I implemented a transformer model using the pytorch library to build a chatbot
 
 # dataset
 In the first step, I took data from the kaggle ( https://www.kaggle.com/datasets/grafstor/simple-dialogs-for-chatbot) site which included two files, where the first was arrays with serial numbers that described a sequence of calls and the second was the sentence that each serial number describes During the data processing process, I mapped parts that are not useful in the string and prepared it for the embedding stage
